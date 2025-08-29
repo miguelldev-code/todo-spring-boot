@@ -31,3 +31,38 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Database Files ###
+# H2 Database files
+*.mv.db
+*.trace.db
+*.lock.db
+data/
+
+### Logs ###
+*.log
+*.gz
+logs/
+
+### OS Files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+
+### Backup files ###
+*.bak
+*.backup
+*.tmp
+*.temp
+
+### Environment ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
